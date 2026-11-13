@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3daaa; 
+    color: rgba(167, 100, 0, 0.886);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+#cabecalho {
+    background-color: rgba(205, 123, 1, 0.886);
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulos-topo h5, .titulos-topo h6 {
+    color: rgb(103, 51, 0);
+    margin: 0;
+}
+
+.titulos-topo h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#cabecalho nav {
+    display: flex;
+    gap: 20px;
+}
+
+#cabecalho nav a {
+    text-decoration: none;
+    color: rgb(103, 51, 0);
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: color 0.2s;
+}
+
+#cabecalho nav a:hover {
+    color: #ffffff;
+}
+
+.cartas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 520px;
+    padding: 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #3f1800e2;
+    transition: all 0.25s ease;
+    background-color: rgba(186, 112, 2, 0.603);
+}
+
+.card:hover {
+   transform: scale(1.1);
+}
+
+.titulo {
+    background-color: rgba(167, 100, 0, 0.886);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.img_container {
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.carct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: rgba(167, 100, 0, 0.886);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 95%;
+}
+
+h1 {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.carct:hover{
+    background-color: rgb(237, 212, 174);
+}
